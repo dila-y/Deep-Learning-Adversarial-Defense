@@ -20,7 +20,7 @@ A hands-on notebook demonstrating adversarial attacks on neural networks using t
 
 ## Project Overview
 
-This notebook explores the vulnerability of deep learning models to adversarial examples, using the MNIST digit classification task to demonstrate attack and defense techniques. The project compares the robustness of different architectures and attack methods using ART, highlighting the importance of adversarial robustness[attached_file:1].
+This notebook explores the vulnerability of deep learning models to adversarial examples, using the MNIST digit classification task to demonstrate attack and defense techniques. The project compares the robustness of different architectures and attack methods using ART, highlighting the importance of adversarial robustness.
 
 ---
 
@@ -36,7 +36,7 @@ This notebook explores the vulnerability of deep learning models to adversarial 
 
 ## Dataset
 
-- **MNIST**: Handwritten digit dataset. Loaded via Keras and numpy, with normalization and train/test split[attached_file:1].
+- **MNIST**: Handwritten digit dataset. Loaded via Keras and numpy, with normalization and train/test split.
 
 ---
 
@@ -45,7 +45,7 @@ This notebook explores the vulnerability of deep learning models to adversarial 
 - Fully connected neural network with one and multiple hidden layers
 - Deep model with 5 dense layers (ReLU)
 - CNN model with 2D convolution and pooling layers
-- All benchmarks use accuracy on test data for comparison[attached_file:1]
+- All benchmarks use accuracy on test data for comparison
 
 ---
 
@@ -57,14 +57,14 @@ Implemented attacks:
 - Projected Gradient Descent (PGD/APGD)
 - Momentum Iterative Method (MIM)
 
-Attacks are generated and evaluated on trained models, comparing efficacy and visual examples[attached_file:1].
+Attacks are generated and evaluated on trained models, comparing efficacy and visual examples.
 
 ---
 
 ## Defense Strategies
 
 - Adversarial training (with FGSM) to improve robustness
-- Effect of defenses is measured against attacks and reported[attached_file:1]
+- Effect of defenses is measured against attacks and reported
 
 ---
 
@@ -72,7 +72,7 @@ Attacks are generated and evaluated on trained models, comparing efficacy and vi
 
 - Adversarial attacks can dramatically reduce model test accuracy, even with small input perturbations.
 - Robust architectures or adversarial training can recover some accuracy loss but remain vulnerable to stronger iterative attacks.
-- Transferability of attacks and differences in norm constraints are evaluated and visualized[attached_file:1].
+- Transferability of attacks and differences in norm constraints are evaluated and visualized.
 
 ---
 
