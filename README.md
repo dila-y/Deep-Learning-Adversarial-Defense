@@ -80,3 +80,21 @@ Attacks are generated and evaluated on trained models, comparing efficacy and vi
 
 ### Requirements
 
+pip install tensorflow matplotlib adversarial-robustness-toolbox
+
+
+### Usage
+
+- Open the notebook and run each cell sequentially.
+- Review in-cell comments for experiment descriptions and results.
+
+---
+
+## References
+
+- [Adversarial Robustness Toolbox Documentation](https://adversarial-robustness-toolbox.readthedocs.io/)
+- TensorFlow, Keras docs
+- MNIST dataset info
+
+---
+
