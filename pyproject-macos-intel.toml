@@ -1,0 +1,12 @@
+[project]
+name = "02-adversarial-attacks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "~=3.10.0"
+dependencies = [
+    "adversarial-robustness-toolbox~=1.14.1",
+    "ipykernel==6.30.1",
+    "matplotlib==3.10.6",
+    "tensorflow~=2.10.0",
+]
