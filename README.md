@@ -93,8 +93,6 @@ pip install tensorflow matplotlib adversarial-robustness-toolbox
 ## References
 
 - [Adversarial Robustness Toolbox Documentation](https://adversarial-robustness-toolbox.readthedocs.io/)
-- TensorFlow, Keras docs
-- MNIST dataset info
 
 ---
 
